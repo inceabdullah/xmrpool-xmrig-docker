@@ -4,7 +4,7 @@ name: CI-1
 
 on:
   push:
-    - master
+    branches: [ master ]
 
 jobs:
   deneme_public:
