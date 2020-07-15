@@ -11,5 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     name: just docker job
     steps:
+      - uses: actions/checkout@v1
       - name: Docker step in root
         uses: ./
