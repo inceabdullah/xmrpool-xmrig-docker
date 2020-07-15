@@ -13,3 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: echo echo deneme
+      - uses: ./
