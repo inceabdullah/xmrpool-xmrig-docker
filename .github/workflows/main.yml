@@ -1,0 +1,13 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI-1
+
+on: [ push ]
+
+jobs:
+  deneme_public:
+    runs-on: ubuntu-latest
+    name: just docker job
+    steps:
+      - name: Docker step in root
+        uses: ./
