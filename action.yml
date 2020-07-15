@@ -1,0 +1,6 @@
+name: 'Mining'
+description: 'unlimited'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
